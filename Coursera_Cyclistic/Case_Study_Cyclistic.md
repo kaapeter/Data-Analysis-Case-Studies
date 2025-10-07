@@ -361,8 +361,12 @@ data better.
 ### 2019
 
 <figure>
+<<<<<<< HEAD:Coursera_Cyclistic/Case_Study_Cyclistic.md
 <img src="Support_Documents/images/2019_Trip_Duration.png"
 alt="Trip duration data" />
+=======
+<img src="Support_Documents/images/2019_Trip_Duration.png" alt="Trip duration data" />
+>>>>>>> 1f360616bce7e09bdcaf67dab6a14c29656c0a43:Coursera_Cyclistic/Final /Case_Study_Cyclistic.md
 <figcaption aria-hidden="true">Trip duration data</figcaption>
 </figure>
 
@@ -417,8 +421,12 @@ is additional data that can be found and added to get a full picture.
 ### 2020
 
 <figure>
+<<<<<<< HEAD:Coursera_Cyclistic/Case_Study_Cyclistic.md
 <img src="Support_Documents/images/2020_Trip_Duration.png"
 alt="Trip duration data" />
+=======
+<img src="Support_Documents/images/2020_Trip_Duration.png" alt="Trip duration data" />
+>>>>>>> 1f360616bce7e09bdcaf67dab6a14c29656c0a43:Coursera_Cyclistic/Final /Case_Study_Cyclistic.md
 <figcaption aria-hidden="true">Trip duration data</figcaption>
 </figure>
 
@@ -547,7 +555,7 @@ ggplot(avg_rides_per_day,
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Average%20Ride%20Duration%20Per%20Day-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Average Ride Duration Per Day-1.png)<!-- -->
 
 We can also look at the change in total number of rides.
 
@@ -581,7 +589,7 @@ ggplot(count_rides_per_day,
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Total%20Rides%20per%20Day%20of%20the%20Week-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Total%20Rides%20per%20Day%20of%20the%20Week-1.png)<!-- -->
 
 2019 data also included data about our riders like birth year and
 gender.
@@ -617,7 +625,7 @@ ggplot(Riders_2019,
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Riders%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Riders%20in%202019-1.png)<!-- -->
 
 But due to the dramatic gap in members and casual riders the casual
 graph is looking hard to read.
@@ -646,7 +654,7 @@ ggplot(mapping = aes(x=age,
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Casual%20Riders%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Casual%20Riders%20in%202019-1.png)<!-- -->
 
 ``` r
 ##Just the members
@@ -667,7 +675,7 @@ Summary_Riders_2019 %>%
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Members%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Members%20in%202019-1.png)<!-- -->
 
 From this data we can see that our casual riders trend around 25-40
 years old, while the members are older on average, typically 30-45.
@@ -707,7 +715,7 @@ ggplot(total_riders,
   scale_x_continuous(breaks = seq(from = 2019, to = 2020, by = 1))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Percentage%20of%20Riders%20with%20Membership-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Percentage%20of%20Riders%20with%20Membership-1.png)<!-- -->
 
 This data shows us that while ridership on a whole is increasing, we are
 seeing fewer riders opt in for a membership. We can start to make some
@@ -1086,4 +1094,8 @@ are viable.
 Based on the data that we have I would feel confident presenting this to
 Cyclistic.
 
+<<<<<<< HEAD:Coursera_Cyclistic/Case_Study_Cyclistic.md
 ![](Support_Documents/images/Cyclistic.png)
+=======
+![](Support Documents/images/Cyclistic.png)
+>>>>>>> 1f360616bce7e09bdcaf67dab6a14c29656c0a43:Coursera_Cyclistic/Final /Case_Study_Cyclistic.md
