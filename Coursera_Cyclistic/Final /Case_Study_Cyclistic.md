@@ -361,7 +361,7 @@ data better.
 ### 2019
 
 <figure>
-<img src="images/2019_Trip_Duration.png" alt="Trip duration data" />
+<img src="Support_Documents/images/2019_Trip_Duration.png" alt="Trip duration data" />
 <figcaption aria-hidden="true">Trip duration data</figcaption>
 </figure>
 
@@ -370,13 +370,13 @@ stark difference in casual riders and members. Casual members go on
 rides that last over 4 times as long as members’ rides.
 
 <figure>
-<img src="images/2019_Average_Daily_Trip_Duration.png"
+<img src="Support_Documents/images/2019_Average_Daily_Trip_Duration.png"
 alt="Average trip duration by day of the week" />
 <figcaption aria-hidden="true">Average trip duration by day of the
 week</figcaption>
 </figure>
 
-![](images/2019_Avg_Daily_Trip_Duration_Chart.png)
+![](Support_Documents/images/2019_Avg_Daily_Trip_Duration_Chart.png)
 
 Here we can see a steady usage across the week for members, which likely
 correlates to their daily commutes, and only a small increase in time on
@@ -385,12 +385,12 @@ Casual riders are going on longer rides on average, but Thursdays are
 when they spend over 2 hours riding on average.
 
 <figure>
-<img src="images/2019_Rides_per_Day_Week.png"
+<img src="Support_Documents/images/2019_Rides_per_Day_Week.png"
 alt="Rides per day of the week" />
 <figcaption aria-hidden="true">Rides per day of the week</figcaption>
 </figure>
 
-![](images/2019_Rides_per_Day_Week_Chart.png)
+![](Support_Documents/images/2019_Rides_per_Day_Week_Chart.png)
 
 When comparing how many rides are taken per day of the week we can see
 that members ride more during weekdays and casual riders prefer to ride
@@ -399,13 +399,13 @@ Members also go on significantly more rides. During Q1 shows that
 members went on almost 15 times more rides than casual riders!
 
 <figure>
-<img src="images/2019_Monthly_Rides_per_Day_Week.png"
+<img src="Support_Documents/images/2019_Monthly_Rides_per_Day_Week.png"
 alt="Monthly rides by day of the week" />
 <figcaption aria-hidden="true">Monthly rides by day of the
 week</figcaption>
 </figure>
 
-![](images/2019_Monthly_Rides_per_Day_Week_Chart.png)
+![](Support_Documents/images/2019_Monthly_Rides_per_Day_Week_Chart.png)
 
 As expected, we see an increase in ridership as spring approaches and
 the weather improves. There is also a small decrease in riders on every
@@ -417,18 +417,18 @@ is additional data that can be found and added to get a full picture.
 ### 2020
 
 <figure>
-<img src="images/2020_Trip_Duration.png" alt="Trip duration data" />
+<img src="Support_Documents/images/2020_Trip_Duration.png" alt="Trip duration data" />
 <figcaption aria-hidden="true">Trip duration data</figcaption>
 </figure>
 
 <figure>
-<img src="images/2020_Avg_Daily_Trip_Duration.png"
+<img src="Support_Documents/images/2020_Avg_Daily_Trip_Duration.png"
 alt="Average trip duration per day of the week" />
 <figcaption aria-hidden="true">Average trip duration per day of the
 week</figcaption>
 </figure>
 
-![](images/2020_Avg_Daily_Trip_Duration_Chart.png)
+![](Support_Documents/images/2020_Avg_Daily_Trip_Duration_Chart.png)
 
 Similar to the prior year, we see longer rides by casual riders and
 shorter rides for members. The members took rides that were over 2
@@ -484,25 +484,25 @@ integrate health vitals feedback to see if we are seeing our riders get
 stronger or faster.
 
 <figure>
-<img src="images/2020_Rides_per_Day_Week.png"
+<img src="Support_Documents/images/2020_Rides_per_Day_Week.png"
 alt="Rides per day of the week" />
 <figcaption aria-hidden="true">Rides per day of the week</figcaption>
 </figure>
 
-![](images/2020_Rides_per_Day_Week_Chart.png)
+![](Support_Documents/images/2020_Rides_per_Day_Week_Chart.png)
 
 Compared to last year we are seeing that Sunday has become the favored
 weekend day for a casual bike ride. Our casual riders are twice as
 likely to ride on Sunday than Saturday.
 
 <figure>
-<img src="images/2019_Monthly_Rides_per_Day_Week.png"
+<img src="Support_Documents/images/2019_Monthly_Rides_per_Day_Week.png"
 alt="Monthly rides by day of the week" />
 <figcaption aria-hidden="true">Monthly rides by day of the
 week</figcaption>
 </figure>
 
-![](images/2020_Monthly_Rides_per_Day_Week_Chart.png)
+![](Support_Documents/images/2020_Monthly_Rides_per_Day_Week_Chart.png)
 
 2020 shows more riders in January for members, but then dropping in
 February. We could theorize about New Year’s Resolutions again, but the
@@ -546,7 +546,7 @@ ggplot(avg_rides_per_day,
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Average%20Ride%20Duration%20Per%20Day-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Average Ride Duration Per Day-1.png)<!-- -->
 
 We can also look at the change in total number of rides.
 
@@ -580,7 +580,7 @@ ggplot(count_rides_per_day,
   theme(axis.text.x = element_text(angle = 45))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Total%20Rides%20per%20Day%20of%20the%20Week-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Total%20Rides%20per%20Day%20of%20the%20Week-1.png)<!-- -->
 
 2019 data also included data about our riders like birth year and
 gender.
@@ -616,7 +616,7 @@ ggplot(Riders_2019,
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Riders%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Riders%20in%202019-1.png)<!-- -->
 
 But due to the dramatic gap in members and casual riders the casual
 graph is looking hard to read.
@@ -645,7 +645,7 @@ ggplot(mapping = aes(x=age,
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Casual%20Riders%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Casual%20Riders%20in%202019-1.png)<!-- -->
 
 ``` r
 ##Just the members
@@ -666,7 +666,7 @@ Summary_Riders_2019 %>%
        fill = "Gender")
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Members%20in%202019-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Age%20of%20Members%20in%202019-1.png)<!-- -->
 
 From this data we can see that our casual riders trend around 25-40
 years old, while the members are older on average, typically 30-45.
@@ -706,7 +706,7 @@ ggplot(total_riders,
   scale_x_continuous(breaks = seq(from = 2019, to = 2020, by = 1))
 ```
 
-![](Case_Study_Cyclistic_files/figure-gfm/Percentage%20of%20Riders%20with%20Membership-1.png)<!-- -->
+![](Support Documents/Case_Study_Cyclistic_files/figure-gfm/Percentage%20of%20Riders%20with%20Membership-1.png)<!-- -->
 
 This data shows us that while ridership on a whole is increasing, we are
 seeing fewer riders opt in for a membership. We can start to make some
@@ -1085,4 +1085,4 @@ are viable.
 Based on the data that we have I would feel confident presenting this to
 Cyclistic.
 
-![](images/Cyclistic.png)
+![](Support Documents/images/Cyclistic.png)
