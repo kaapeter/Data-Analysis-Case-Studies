@@ -49,6 +49,8 @@ import the data. The files are large, and may take some time to load!
 Trips_2019_Q1_1 <- read_sheet("https://docs.google.com/spreadsheets/d/18UEVcgg0CN8KurLXWgxdu4zEv2paqK_LUcwNeDFh854")
 ```
 
+    ## Auto-refreshing stale OAuth token.
+
     ## ✔ Reading from "Cyclistic_Trips_2019_Q1_1".
 
     ## ✔ Range 'Cyclistic_Trips_2019_Q1_1'.
@@ -359,9 +361,9 @@ data better.
 ### 2019
 
 <figure>
-<img src="Support_Documents/images/2019_Trip_Duration.png"
-alt="Trip duration data" />
-<figcaption aria-hidden="true">Trip duration data</figcaption>
+<img src="Support%20Documents/images/2019_Trip_Duration.png"
+alt="Trip Duration data" />
+<figcaption aria-hidden="true">Trip Duration data</figcaption>
 </figure>
 
 This quick glance at average trip duration by membership type shows a
@@ -369,13 +371,14 @@ stark difference in casual riders and members. Casual members go on
 rides that last over 4 times as long as members’ rides.
 
 <figure>
-<img src="Support_Documents/images/2019_Average_Daily_Trip_Duration.png"
+<img
+src="Support%20Documents/images/2019_Average_Daily_Trip_Duration.png"
 alt="Average trip duration by day of the week" />
 <figcaption aria-hidden="true">Average trip duration by day of the
 week</figcaption>
 </figure>
 
-![](Support_Documents/images/2019_Avg_Daily_Trip_Duration_Chart.png)
+![](Support%20Documents/images/2019_Avg_Daily_Trip_Duration_Chart.png)
 
 Here we can see a steady usage across the week for members, which likely
 correlates to their daily commutes, and only a small increase in time on
@@ -383,12 +386,12 @@ the weekends. Casual riders are going on longer rides on average, but
 Thursdays are when they spend over 2 hours riding on average.
 
 <figure>
-<img src="Support_Documents/images/2019_Rides_per_Day_Week.png"
+<img src="Support%20Documents/images/2019_Rides_per_Day_Week.png"
 alt="Rides per day of the week" />
 <figcaption aria-hidden="true">Rides per day of the week</figcaption>
 </figure>
 
-![](Support_Documents/images/2019_Rides_per_Day_Week_Chart.png)
+![](Support%20Documents/images/2019_Rides_per_Day_Week_Chart.png)
 
 When comparing how many rides are taken per day of the week we can see
 that members ride more during weekdays and casual riders prefer to ride
@@ -397,13 +400,20 @@ shows that members went on almost 15 times more rides than casual
 riders!
 
 <figure>
-<img src="Support_Documents/images/2019_Monthly_Rides_per_Day_Week.png"
+<img
+src="Support%20Documents/images/2019_Monthly_Rides_per_Day_Week.png"
 alt="Monthly rides by day of the week" />
 <figcaption aria-hidden="true">Monthly rides by day of the
 week</figcaption>
 </figure>
 
-![](Support_Documents/images/2019_Monthly_Rides_per_Day_Week_Chart.png)
+<figure>
+<img
+src="Support%20Documents/images/2019_Monthly_Rides_per_Day_Week_Chart.png"
+alt="Monthly rides by day of the week" />
+<figcaption aria-hidden="true">Monthly rides by day of the
+week</figcaption>
+</figure>
 
 As expected, we see an increase in ridership as spring approaches and
 the weather improves. There is also a small decrease in riders on every
@@ -415,19 +425,19 @@ is additional data that can be found and added to get a full picture.
 ### 2020
 
 <figure>
-<img src="Support_Documents/images/2020_Trip_Duration.png"
+<img src="Support%20Documents/images/2020_Trip_Duration.png"
 alt="Trip duration data" />
 <figcaption aria-hidden="true">Trip duration data</figcaption>
 </figure>
 
 <figure>
-<img src="Support_Documents/images/2020_Avg_Daily_Trip_Duration.png"
+<img src="Support%20Documents/images/2020_Avg_Daily_Trip_Duration.png"
 alt="Average trip duration per day of the week" />
 <figcaption aria-hidden="true">Average trip duration per day of the
 week</figcaption>
 </figure>
 
-![](Support_Documents/images/2020_Avg_Daily_Trip_Duration_Chart.png)
+![](Support%20Documents/images/2020_Avg_Daily_Trip_Duration_Chart.png)
 
 Similar to the prior year, we see longer rides by casual riders and
 shorter rides for members. The members took rides that were over 2
@@ -483,25 +493,26 @@ integrate health vitals feedback to see if we are seeing our riders get
 stronger or faster.
 
 <figure>
-<img src="Support_Documents/images/2020_Rides_per_Day_Week.png"
+<img src="Support%20Documents/images/2020_Rides_per_Day_Week.png"
 alt="Rides per day of the week" />
 <figcaption aria-hidden="true">Rides per day of the week</figcaption>
 </figure>
 
-![](Support_Documents/images/2020_Rides_per_Day_Week_Chart.png)
+![](Support%20Documents/images/2020_Rides_per_Day_Week_Chart.png)
 
 Compared to last year we are seeing that Sunday has become the favored
 weekend day for a casual bike ride. Our casual riders are twice as
 likely to ride on Sunday than Saturday.
 
 <figure>
-<img src="Support_Documents/images/2019_Monthly_Rides_per_Day_Week.png"
+<img
+src="Support%20Documents/images/2020_Monthly_Rides_per_Day_Week.png"
 alt="Monthly rides by day of the week" />
 <figcaption aria-hidden="true">Monthly rides by day of the
 week</figcaption>
 </figure>
 
-![](Support_Documents/images/2020_Monthly_Rides_per_Day_Week_Chart.png)
+![](Support%20Documents/images/2020_Monthly_Rides_per_Day_Week_Chart.png)
 
 2020 shows more riders in January for members, but then dropping in
 February. We could theorize about New Year’s Resolutions again, but the
@@ -1084,4 +1095,4 @@ are viable.
 Based on the data that we have I would feel confident presenting this to
 Cyclistic.
 
-![](Support_Documents/images/Cyclistic.png)
+![](Support%20Documents/images/Cyclistic.png)
